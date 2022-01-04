@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+.toggle-btn {
+  padding-inline: 45%;
+  font-family: "Oranienbaum", serif;
+}
+header {
+  background-color: #f1f1e9;
+  padding-top: 2%;
+}
+header .hjem {
+  text-align: center;
+}
+.hjem a {
+  font-size: 5rem;
+
+  font-family: "Oranienbaum", serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 40px;
+  gap: 20px;
+}
+a {
+  font-family: "Oranienbaum", serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* ------------Billede størrelse---------------------------------------------------------------------- */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ------------Section 1--------------------------------------------------------------------- */
+
+#section_1 .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+  text-align: center;
+}
+
+#section_1 .projekter {
+  background-color: aqua;
+  margin: 5px;
+}
+
+#section_1 .cv {
+  background-color: red;
+  margin: 5px;
+}
