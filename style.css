@@ -55,14 +55,44 @@ img {
   grid-template-columns: 1fr 1fr;
   margin: 20px;
   text-align: center;
+  gap: 2px;
 }
 
-#section_1 .projekter {
-  background-color: aqua;
+#section_1 h1 {
+  font-family: oranienbaum;
+  font-size: 75px;
+}
+
+#section_1 .web {
+  background-color: #d0c3ad;
   margin: 5px;
 }
 
-#section_1 .cv {
-  background-color: red;
+#section_1 .ux {
+  background-color: #ec5840;
   margin: 5px;
+}
+
+#section_1 .animation_04 {
+  background-color: #2159b5;
+  margin: 5px;
+}
+#section_1 .indhold_05 {
+  background-color: #ceb8f3;
+  margin: 5px;
+}
+
+#section_1 .ommig {
+  background-color: #527247;
+  margin: 5px;
+}
+
+/* ---------------------@MEDIA-------------------------*/
+@media (min-width: 1200px) {
+  #section_1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    text-align: center;
+  }
 }

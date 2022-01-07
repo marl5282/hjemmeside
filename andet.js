@@ -28,3 +28,8 @@ function toggleMenu() {
 
 /* Tilføj et klik-event til btn, der sætter toggleMenu-funktionen i gang */
 btn.addEventListener("click", toggleMenu);
+
+//Startskærm- click for at komme videre til anden side.
+//Klik på start_knap
+console.log("startGame");
+document.querySelector("#start_knap").addEventListener("click", startGame);
