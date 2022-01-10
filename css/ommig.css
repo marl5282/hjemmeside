@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+.toggle-btn {
+  padding-inline: 45%;
+  font-family: "Oranienbaum", serif;
+}
+header {
+  background-color: #f1f1e9;
+  padding-top: 2%;
+}
+header .hjem {
+  text-align: center;
+}
+.hjem a {
+  font-size: 5rem;
+
+  font-family: "Oranienbaum", serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 40px;
+  gap: 20px;
+  border-style: solid;
+}
+a {
+  font-family: "Oranienbaum", serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* ------------Billede størrelse---------------------------------------------------------------------- */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ------------Sektion1 --------------------------------------------------------------------- */
+
+#section_1 .navn {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oranienbaum", serif;
+  margin: 20px;
+}
+
+#section_1 .billede {
+  margin: 20px;
+}
+
+#section_1 .text {
+  margin: 20px;
+}
+/* ------------Sektion2 --------------------------------------------------------------------- */
+#section_2 .section_wrapper {
+  margin: 20px;
+}
+
+#section_2 h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Oranienbaum", serif;
+}
+
+#section_2 .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 10px;
+  margin-top: 200px;
+}
+
+/* ---------------------@MEDIA-------------------------*/
+@media (min-width: 1200px) {
+  /* ------------Sektion1 --------------------------------------------------------------------- */
+
+  #section_1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin: 20px;
+    text-align: center;
+    gap: 10px;
+    margin-top: 200px;
+  }
+  #section_1 h1 {
+    font-family: "Oranienbaum", serif;
+    font-size: 60px;
+  }
+
+  #section_1 .navn {
+    margin-top: 200px;
+  }
+  #section_1 .text {
+    margin-top: 200px;
+  }
+}
