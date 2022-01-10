@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* -----------------------burgermenu--------------------------- */
+.toggle-btn {
+  display: none;
+}
+.toggle-btn {
+  padding-inline: 45%;
+  font-family: "Oranienbaum", serif;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .menu-icons {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toggle-btn.open .burger,
+  .close {
+    display: none;
+  }
+
+  .toggle-btn.open .close,
+  .burger {
+    display: block;
+  }
+}
+header {
+  background-color: #f1f1e9;
+  padding-top: 2%;
+}
+header .hjem {
+  text-align: center;
+}
+.hjem a {
+  font-size: 5rem;
+
+  font-family: "Oranienbaum", serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 40px;
+  gap: 20px;
+}
+
+a {
+  font-family: "Oranienbaum", serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* ------------Billede størrelse---------------------------------------------------------------------- */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* ------------Fontstørrelse og font---------------------------------------------------------------------- */
+h1,
+h2,
+h3 {
+  font-family: "Oranienbaum", serif;
+}
+
+p {
+  font-family: "Montserrat", serif;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+/* ------------Sektion1 --------------------------------------------------------------------- */
+
+#section_1 .section_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 50px);
+  gap: 10px;
+  margin: 50px;
+}
+
+#section_1 .h1 {
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+  font-size: 80px;
+  color: #f1f1e9;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+#section_1 .billede {
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
+}
+
+#section_1 .text {
+  grid-row: 3 / 5;
+  grid-column: 3 / 5;
+}
+
+/* ------------Sektion3 --------------------------------------------------------------------- */
+
+#section_3 .section_wrapper {
+  margin: 30px;
+}
+
+#section_3 img {
+  margin-top: 20px;
+}
+#section_3 .billede {
+  margin: 10px;
+}
+
+#section_3 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media (min-width: 1200px) {
+  /* ------------Sektion3 --------------------------------------------------------------------- */
+  #section_3 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_3 .billede {
+    padding: 50px;
+  }
+
+  #section_3 .text {
+    margin-top: 190px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+}

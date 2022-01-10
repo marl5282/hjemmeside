@@ -3,13 +3,57 @@
   margin: 0;
 }
 
-/* burgermenu */
+/* -----------------------burgermenu--------------------------- */
 .toggle-btn {
   display: none;
 }
 .toggle-btn {
   padding-inline: 45%;
   font-family: "Oranienbaum", serif;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .menu-icons {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toggle-btn.open .burger,
+  .close {
+    display: none;
+  }
+
+  .toggle-btn.open .close,
+  .burger {
+    display: block;
+  }
 }
 header {
   background-color: #f1f1e9;
@@ -28,11 +72,12 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 40px;
   gap: 20px;
 }
+
 a {
   font-family: "Oranienbaum", serif;
   text-decoration: none;
@@ -44,36 +89,35 @@ a {
 /* ------------Billede størrelse---------------------------------------------------------------------- */
 img {
   width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* ------------Section 1--------------------------------------------------------------------- */
 
+#section_1 h2 {
+  color: #f1f1e9;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  font-family: "Oranienbaum", serif;
+  font-size: 80px;
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+
+#section_1 h1 {
+  font-family: "Oranienbaum", serif;
+  font-size: 110px;
+}
+
 #section_1 .section_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px;
-  text-align: center;
-  gap: 2px;
+  margin: 25px;
+  margin-bottom: 30%;
 }
 
 /* ------------Section 2--------------------------------------------------------------------- */
 
-#section_2 .section_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px;
-  text-align: center;
-  gap: 2px;
-}
-
 #section_2 h1 {
-  font-family: oranienbaum;
-  font-size: 75px;
-  transform: rotate(90deg);
-  margin-top: 50px;
-  margin-right: 70px;
+  text-align: center;
+  padding-top: 9%;
 }
 
 #section_2 .web {
@@ -100,12 +144,83 @@ img {
   margin: 5px;
 }
 
-/* ---------------------@MEDIA-------------------------*/
-@media (min-width: 1200px) {
+/* ---------------------@MEDIA-600------------------------*/
+/* @media (min-width: 600px) {
   #section_2 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
     margin: 20px;
     text-align: center;
+  }
+  #section_1 h1 {
+    color: #f1f1e9;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-family: "Oranienbaum", serif;
+    font-size: 130px;
+  }
+
+  #section_1 h2 {
+    font-family: "Oranienbaum", serif;
+    font-size: 130px;
+  }
+} */
+
+/* ---------------------@MEDIA-1200------------------------*/
+@media (min-width: 1200px) {
+  #section_1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    margin-left: 120px;
+  }
+
+  #section_1 h1 {
+    font-size: 150px;
+    margin-left: 50px;
+  }
+
+  #section_1 h2 {
+    font-size: 150px;
+    margin-top: -80px;
+    opacity: 40%;
+  }
+
+  #section_1 #section_2 .section_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 600px);
+    margin: 100px;
+  }
+
+  #section_2 h1 {
+    font-family: oranienbaum;
+    font-size: 80px;
+    transform: rotate(90deg);
+    gap: 20px;
+  }
+
+  #section_2 .web {
+    margin: 5px;
+    padding-top: 85px;
+  }
+
+  #section_2 .ux {
+    margin: 5px;
+    padding-top: 60px;
+  }
+
+  #section_2 .animation_04 {
+    margin: 5px;
+    padding-top: 190px;
+  }
+  #section_2 .indhold_05 {
+    margin: 5px;
+    padding-top: 150px;
+  }
+
+  #section_2 .ommig {
+    margin: 5px;
+    padding-top: 40px;
   }
 }
