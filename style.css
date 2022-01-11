@@ -3,6 +3,16 @@
   margin: 0;
 }
 
+#section_1 h3 {
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* -----------------------burgermenu--------------------------- */
 .toggle-btn {
   display: none;
@@ -196,7 +206,6 @@ img {
 
   #section_1 h3 {
     font-size: 30px;
-    font-style: italic;
   }
 
   #section_2 .section_wrapper {
@@ -204,6 +213,7 @@ img {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 600px);
     margin: 100px;
+    margin-top: 20px;
   }
 
   #section_2 h1 {
@@ -234,6 +244,6 @@ img {
 
   #section_2 .ommig {
     margin: 5px;
-    padding-top: 40px;
+    padding-top: 150px;
   }
 }

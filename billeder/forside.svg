@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <rect id="Rectangle_99" data-name="Rectangle 99" width="1920" height="1080" fill="#f1f1e9"/>
+    <line id="Line_15" data-name="Line 15" y2="916.037" transform="translate(1818.994 62.299)" fill="none" stroke="#080808" stroke-width="3"/>
+    <text id="_2021" data-name="2021" transform="translate(1710.49 966.834)" fill="#101010" font-size="38" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">2021</tspan></text>
+    <text id="Marlene_Mathilde_Merkel" data-name="Marlene Mathilde Merkel" transform="translate(919 778)" fill="#101010" font-size="35" font-family="Montserrat-LightItalic, Montserrat" font-weight="300" font-style="italic"><tspan x="0" y="0">Marlene Mathilde Merkel</tspan></text>
+    <text id="Portfolio" transform="translate(660.809 683.064)" fill="none" stroke="#020202" stroke-width="1" font-size="284" font-family="Oranienbaum-Regular, Oranienbaum"><tspan x="0" y="0">Portfolio</tspan></text>
+    <text id="_1._semester" data-name="1. semester" transform="translate(1551.486 99.799)" fill="#101010" font-size="38" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">1. semester</tspan></text>
+    <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="70" cy="70.5" rx="70" ry="70.5" transform="translate(506 241)" fill="#f7c771"/>
+    <text id="Portfolio-2" data-name="Portfolio" transform="translate(550.615 527.148)" fill="#101010" font-size="286" font-family="Oranienbaum-Regular, Oranienbaum"><tspan x="0" y="0">Portfolio</tspan></text>
+    <text id="Multimediedesign_" data-name="Multimediedesign " transform="translate(65 992)" fill="#101010" font-size="41" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Multimediedesign </tspan></text>
+  </g>
+</svg>
