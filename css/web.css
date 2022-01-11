@@ -233,6 +233,160 @@ h2 {
   margin-top: 80px;
   margin-right: 20px;
   margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ------------Sektion5 --------------------------------------------------------------------- */
+
+#section_5 .section_wrapper {
+  margin: 30px;
+}
+
+#section_5 img {
+  margin-top: 20px;
+}
+#section_5 .billede {
+  margin: 10px;
+}
+
+#section_5 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* ------------Sektion6 --------------------------------------------------------------------- */
+
+#section_6 .section_wrapper {
+  margin: 30px;
+}
+
+#section_6 img {
+  margin-top: 20px;
+}
+#section_6 .billede {
+  margin: 10px;
+}
+
+#section_6 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+/* ------------Sektion7 --------------------------------------------------------------------- */
+
+#section_7 .section_wrapper {
+  margin: 30px;
+}
+
+#section_7 img {
+  margin-top: 20px;
+}
+#section_7 .billede {
+  margin: 10px;
+}
+
+#section_7 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* ------------Sektion8 --------------------------------------------------------------------- */
+
+#section_8 .section_wrapper {
+  margin: 30px;
+}
+
+#section_8 img {
+  margin-top: 20px;
+}
+#section_8 .billede {
+  margin: 10px;
+}
+
+#section_8 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+/* ------------Sektion9 --------------------------------------------------------------------- */
+
+#section_9 .section_wrapper {
+  margin: 30px;
+}
+
+#section_9 img {
+  margin-top: 20px;
+}
+#section_9 .billede {
+  margin: 10px;
+}
+
+#section_9 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 20px; */
+}
+
+/* ------------Sektion10 --------------------------------------------------------------------- */
+
+#section_10 .section_wrapper {
+  margin: 30px;
+}
+
+#section_10 img {
+  margin-top: 20px;
+}
+#section_10 .billede {
+  margin: 10px;
+}
+
+#section_10 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* ------------Sektion11 --------------------------------------------------------------------- */
+
+#section_11 .section_wrapper {
+  margin: 30px;
+}
+
+#section_11 img {
+  margin-top: 20px;
+}
+#section_11 .billede {
+  margin: 10px;
+}
+
+#section_11 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ------------Sektion12 --------------------------------------------------------------------- */
+#section_12 .section_wrapper {
+  margin: 30px;
+}
+
+#section_12 img {
+  margin-top: 20px;
+}
+#section_12 .billede {
+  margin: 10px;
+}
+
+#section_12 .text {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (min-width: 1200px) {
@@ -270,6 +424,161 @@ h2 {
 
   #section_4 .text {
     margin-top: 190px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+  /* ------------Sektion5 --------------------------------------------------------------------- */
+  #section_5 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_5 .billede {
+    padding: 50px;
+  }
+
+  #section_5 .text {
+    margin-top: 190px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+  /* ------------Sektion6 --------------------------------------------------------------------- */
+  #section_6 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_6 .billede {
+    padding: 50px;
+  }
+
+  #section_6 .text {
+    margin-top: 190px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+  /* ------------Sektion7 --------------------------------------------------------------------- */
+  #section_7 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_7 .billede {
+    padding: 50px;
+  }
+
+  #section_7 .text {
+    margin-top: 190px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+
+  /* ------------Sektion8 --------------------------------------------------------------------- */
+  #section_8 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_8 .billede {
+    padding: 50px;
+  }
+
+  #section_8 .text {
+    margin-top: 190px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+  /* ------------Sektion9 --------------------------------------------------------------------- */
+  #section_9 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_9 .billede {
+    padding: 50px;
+  }
+
+  #section_9 .text {
+    margin-top: 270px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+
+  /* ------------Sektion10--------------------------------------------------------------------- */
+  #section_10 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_10 .billede {
+    padding: 50px;
+  }
+
+  #section_10 .text {
+    margin-top: 270px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+
+  /* ------------Sektion11--------------------------------------------------------------------- */
+  #section_11 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_11 .billede {
+    padding: 50px;
+  }
+
+  #section_11 .text {
+    margin-top: 270px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+  /* ------------Sektion12--------------------------------------------------------------------- */
+  #section_12 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  #section_12 .billede {
+    padding: 50px;
+  }
+
+  #section_12 .text {
+    margin-top: 270px;
   }
   h2 {
     font-size: 70px;
