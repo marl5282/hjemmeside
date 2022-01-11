@@ -142,8 +142,13 @@ h3 {
   margin-top: 200px;
 }
 
-h3 {
-  margin-top: 50px;
+#section_2 .texttre {
+  margin-top: -100px;
+}
+
+#section_2 .textfire {
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 /* ---------------------@MEDIA-------------------------*/
