@@ -3,13 +3,57 @@
   margin: 0;
 }
 
-/* burgermenu */
+/* -----------------------burgermenu--------------------------- */
 .toggle-btn {
   display: none;
 }
 .toggle-btn {
   padding-inline: 45%;
   font-family: "Oranienbaum", serif;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .menu-icons {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toggle-btn.open .burger,
+  .close {
+    display: none;
+  }
+
+  .toggle-btn.open .close,
+  .burger {
+    display: block;
+  }
 }
 header {
   background-color: #f1f1e9;
@@ -28,11 +72,12 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 40px;
   gap: 20px;
 }
+
 a {
   font-family: "Oranienbaum", serif;
   text-decoration: none;
@@ -95,16 +140,31 @@ img {
     text-align: center;
     gap: 10px;
     margin-top: 200px;
+    margin-left: 100px;
   }
   #section_1 h1 {
     font-family: "Oranienbaum", serif;
-    font-size: 60px;
+    font-size: 80px;
   }
 
+  #section_1 .elipse {
+    padding: 35%;
+  }
+
+  #section_1 .billede {
+    margin-left: 50px;
+  }
   #section_1 .navn {
-    margin-top: 200px;
+    margin-top: 80px;
   }
   #section_1 .text {
-    margin-top: 200px;
+    margin-top: 400px;
+    margin: 50px;
+    padding-top: 110px;
+    padding-right: 70px;
+  }
+  #section_1 h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
   }
 }
