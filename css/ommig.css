@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-p {
-  font-family: "Jost", sans-serif;
-}
-
 /* -----------------------burgermenu--------------------------- */
 .toggle-btn {
   display: none;
@@ -114,6 +110,19 @@ img {
   margin: 20px;
 }
 
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Oranienbaum", serif;
+}
+
 /* ------------Sektion2 --------------------------------------------------------------------- */
 #section_2 .section_wrapper {
   margin: 20px;
@@ -131,6 +140,10 @@ img {
   text-align: center;
   gap: 10px;
   margin-top: 200px;
+}
+
+h3 {
+  margin-top: 50px;
 }
 
 /* ---------------------@MEDIA-------------------------*/
@@ -168,7 +181,7 @@ img {
     padding-right: 70px;
   }
   #section_1 h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 15px;
   }
 }
