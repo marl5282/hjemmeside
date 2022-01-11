@@ -213,7 +213,6 @@ img {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 600px);
     margin: 100px;
-    margin-top: ;
   }
 
   #section_2 h1 {
