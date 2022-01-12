@@ -93,6 +93,11 @@ img {
   display: block;
 }
 
+/* mouse over link */
+a:hover {
+  color: #f7c771;
+}
+
 /* ------------Sektion1 --------------------------------------------------------------------- */
 
 #section_1 .navn {
